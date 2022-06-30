@@ -1,5 +1,6 @@
-
+//nao pode instanciar objetos dessa classe, pq é abstrata.
 public abstract class Funcionario {
+	
 
 	private String nome;
 	private String cpf;
@@ -9,10 +10,9 @@ public abstract class Funcionario {
 
 	}
 
-	public double getBonificacao() {
-		System.out.println("Chamando o metodo de bonificacao do funcionario comum");
-		return this.salario * 0.05;
-	}
+	// metodo sem corpo
+	public abstract double getBonificacao();
+	
 
 	public String getNome() {
 		return nome;
