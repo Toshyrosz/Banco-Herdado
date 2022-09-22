@@ -2,6 +2,7 @@
 public class AutenticacaoUtil {
 
 	private int senha;
+	public int a = 10;
 
 	public boolean autentica(int senha) {
 		if (this.senha == senha) {
